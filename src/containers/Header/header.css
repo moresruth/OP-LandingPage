@@ -1,0 +1,141 @@
+.app__header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.app__header-wrapper_info h3{
+    font-size: 1.5rem;
+    font-family: var(--font-base);
+    font-weight: 800;
+}
+
+.app__header-wrapper_info h1{
+    font-size: 8rem;
+    font-family: var(--font-alt);
+    font-weight: 800;
+}
+
+.app__header-img{
+    width: 600px;
+}
+.app__header-img img{
+    width: 600px;
+    
+    
+}
+
+/* responsive */
+@media screen and (max-width: 2000px){
+   
+
+}
+
+@media screen and (max-width: 1150px){
+    .app__header{
+        margin: 0 1rem ;
+        padding: 0 1rem;
+        
+    }
+
+    .app__header-wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* margin: 1rem; */
+        /* padding: 1rem; */
+       
+    }
+
+   
+
+    .app__header-wrapper_info h3{
+        font-size: 1rem;
+    }
+    .app__header-wrapper_info h1{
+        font-size: 4rem;
+    }
+
+    .app__header-wrapper_info p{
+        font-size: .9rem;
+        
+    }
+
+    .app__button{
+        background-color: var(--color-maroon);
+        color: var(--color-white);
+        font-family: var(--font-base);
+        font-weight: 600;
+        letter-spacing: 0.04rem;
+        line-height: 20px;
+        font-size: .8rem;
+        padding: 0.5rem 1.5rem;
+        border-radius: 10px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        margin: 1rem 0;
+    }
+
+    .app__header-img{
+        width: 9rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+
+}
+
+@media screen and (max-width: 650px){
+    .app__header{
+        padding: 1rem;
+        margin: 0 5px;
+    }
+
+    .app__header-wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .app__header-wrapper_info h3{
+        font-size: 1rem;
+    }
+    .app__header-wrapper_info h1{
+        font-size: 4rem;
+    }
+
+    .app__header-wrapper_info p{
+        font-size: .9rem;
+        
+    }
+    .app__button{
+        background-color: var(--color-maroon);
+        color: var(--color-white);
+        font-family: var(--font-base);
+        font-weight: 600;
+        letter-spacing: 0.04rem;
+        line-height: 20px;
+        font-size: .8rem;
+        padding: 0.5rem 1.5rem;
+        border-radius: 10px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        margin: 1rem 0;
+    }
+
+    .app__header-img{
+        width: 25rem;
+    }
+
+    .app__header-img img{
+       
+        width: 25rem;
+       
+    }
+}

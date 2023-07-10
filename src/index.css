@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Imbue:wght@100;200;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,700;0,800;1,200;1,500&display=swap');
+
+
+
+:root {
+  
+  --font-base: 'Poppins', sans-serif;
+  --font-alt: 'Imbue', serif;
+
+  --gradient__bg-footer:  linear-gradient(131deg, rgba(0,0,0,1) 0%, rgba(71,5,5,1) 100%);
+  --gradient__bg-storyarcs:linear-gradient(123deg, rgba(5,1,0,1) 0%, rgba(77,6,3,1) 100%);
+
+  --color-black: #000000;
+  --color-gray: #545454;
+  --color-crimson: #F5EFDB;
+  --color-grey: #AAAAAA;
+  --color-white: #FFFFFF;
+  --color-maroon: #990A0A;
+  ---color-darkmaroon: #340101;
+  --color-light: 225, 225, 225;
+  
+  
+  
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+body{
+  background: var(--color-black);
+  color: var(--color-white);
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+}
