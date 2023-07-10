@@ -1,0 +1,31 @@
+.app__rating{
+    margin: 0.1rem;
+}
+
+.app__rating-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+   
+}
+
+
+.app__rating-content p{
+    color: var(--color-white);
+   
+    font-family: var(--font-base);
+    font-weight: 300;
+   
+}
+
+
+.app__rating-content img{
+    width: 90px;
+    height: 14px;
+    display: flex;
+    justify-content: center;
+
+    margin-top: 0.4rem;
+    margin-left: 0.5rem;
+   
+}
