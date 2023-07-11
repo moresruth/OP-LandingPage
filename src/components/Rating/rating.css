@@ -10,18 +10,21 @@
 }
 
 
-.app__rating-content p{
+.app__rating-content {
     color: var(--color-white);
-   
+    font-size: 12px;
     font-family: var(--font-base);
     font-weight: 300;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
    
 }
 
 
 .app__rating-content img{
     width: 90px;
-    height: 14px;
+    height: 12px;
     display: flex;
     justify-content: center;
 

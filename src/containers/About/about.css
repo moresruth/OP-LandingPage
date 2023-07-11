@@ -1,26 +1,24 @@
-.app__about{
+.app__about-wrapper{
     display: flex;
-    background-color:var( ---color-darkmaroon);
-    
-    
+    background-color:var( ---color-darkmaroon);    
 
 }
 
 
 
 
-.app__about-wrapper{
+/* .app__about-wrapper{
     margin: 0 6rem;
     padding: 0 6rem;
-}
+} */
 
 .app__about-img, 
-
 .app__about-verticaltext,
-.app__about-content{
+.app__about-content,
+.app__about-info{
     font-size: 20px;
     padding: 100px 10px;
-    width: 50%;
+    /* width: 50%; */
 }
 
 
@@ -34,7 +32,7 @@
 
 .app__about-img img{
     width: 399px;
-    height: 399px;
+    height: 459px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,13 +42,9 @@
     padding-top: 11rem;
 }
 
-/* .app__about-maroon{
-    width: 62.22rem;
-    background-color:var( ---color-darkmaroon);
-    height: 100vh;
-} */
 
-.app__about-verticaltext p{
+
+.app__about-verticaltext {
     font-family: var(--font-base);
     font-size: 4rem;
     letter-spacing: -2px;
@@ -58,9 +52,93 @@
     
     
     font-weight: 800;
-    transform: translate(-2rem, 4rem);
+    transform: translate(-2.5rem, 5rem);
+    line-height:1.5;
+}
+
+.app__about-content {
+    transform: translate(-2rem, -50px);
+    margin-right: 8rem;
+   
+   
+} 
+
+.app__about-content h1{
+    font-size: 2.5rem;
 }
 
 .app__about-content p{
+    font-size: 12px;
     font-family: var(--font-base);
-} 
+    text-align: justify;
+}
+
+
+@media screen and (max-width: 2000px){
+
+}
+
+@media screen and ( max-width: 1150px){
+
+   
+    .app__about-img{
+        width: 40rem;
+        height: 51rem;
+        display: flex;
+        align-items: center;
+        
+    }
+
+    .app__about-img img{
+        display: none;
+    }
+
+
+    .app__about-verticaltext {
+        font-family: var(--font-base);
+        font-size: 4rem;
+        letter-spacing: -2px;
+        color: var(--color-maroon);
+        
+        
+        font-weight: 800;
+        transform: translate(-2.9rem, 11rem);
+        padding: 1rem;
+        
+    }
+
+    .app__about-content {
+        transform: translate(-2rem, 2px);
+        margin-right: 1rem;
+       
+       
+    } 
+}
+
+
+@media screen and ( max-width: 650px){
+    .app__about-img{
+        width: 50rem;
+        height: 65rem;
+        
+        
+    }
+
+
+    .app__about-verticaltext{
+        display: none;
+    }
+
+
+        .app__about-content{
+            display: flex;
+            flex-direction: column;
+            margin: 2rem 0;
+            padding: 0;
+            transform: translate(-3rem, 1px);
+        }
+
+        .app__about-content p {
+            padding: 1rem 0;
+        }
+}
