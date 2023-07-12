@@ -1,6 +1,6 @@
 .app__subheading-text{
     font-family: var(--font-base);
-    font-size: 1rem;
+    font-size: 12px;
     font-weight: 400;
     letter-spacing: -1px;
 }
