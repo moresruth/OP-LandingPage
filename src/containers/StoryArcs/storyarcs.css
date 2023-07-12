@@ -1,0 +1,46 @@
+.app__storyarcs{
+    background: rgb(5,1,0);
+    background: linear-gradient(123deg, rgba(5,1,0,1) 0%, rgba(77,6,3,1) 100%);
+}
+
+.app__storyarcs-containers{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: var(--color-white);
+    font-family: var(--font-base);
+
+    margin: 1rem 0;
+}
+
+
+/* responsive */
+@media screen and (max-width:1150px){
+    .app__storyarcs-wrapper{
+        margin: 2rem;
+        padding: 1rem;
+    }
+
+    .app__storyarcs-containers{
+        margin: 1rem;
+        padding: 1rem;
+    
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width:650px){
+    .app__storyarcs-wrapper{
+        margin: 2rem;
+        padding: 1rem;
+    }
+
+    .app__storyarcs-containers{
+        margin: 1rem;
+        padding: 1rem;
+    
+        display: flex;
+        flex-direction: column;
+    }
+}

@@ -9,7 +9,7 @@ const Rating = () => {
   return (
     <div className="app__rating">
         <div className="app__rating-content">
-            <>Rating</>
+            <>Rating :</>
              <img src={images.Rating} alt="" />
         </div>
     </div>

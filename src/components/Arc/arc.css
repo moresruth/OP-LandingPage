@@ -1,0 +1,25 @@
+.app__arc{
+    margin:1rem;
+    width: 250px;
+}
+
+.app__arc-img img{
+    width: 250px;
+}
+
+.app__arc-content{
+    display: flex;
+    flex-direction: column;
+    color: var(--color-white);
+    font-family: var(--font-base);
+
+    margin: 1rem 0;
+    font-size: 12px;
+    
+}
+.app__arc-content_overview{
+    font-weight: 200;
+    padding: 1px;
+}
+
+

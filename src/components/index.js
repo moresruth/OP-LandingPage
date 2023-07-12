@@ -4,5 +4,5 @@ export { default as Character } from './Character/Character';
 export { default as Footer } from './Footer/Footer';
 export { default as SubHeading } from './SubHeading/SubHeading';
 export { default as Rating } from './Rating/Rating';
-// export { default as CharacteHeading } from './CharacterHeading/CharacterHeading';
+export { default as Arc } from './Arc/Arc';
 
