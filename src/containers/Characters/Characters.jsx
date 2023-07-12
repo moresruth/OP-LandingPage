@@ -7,7 +7,7 @@ import images from '../../constants/images';
 const Characters = () => {
    
   return (
-    <div className="app__characters" id="character">
+    <div className="app__characters" id="characters">
         <div className="app__characters-wrapper section__padding section__margin">
             <h1>Characters</h1>
             <SubHeading title="ワンピース  |  1998"/>

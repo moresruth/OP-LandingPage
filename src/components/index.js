@@ -5,4 +5,5 @@ export { default as Footer } from './Footer/Footer';
 export { default as SubHeading } from './SubHeading/SubHeading';
 export { default as Rating } from './Rating/Rating';
 export { default as Arc } from './Arc/Arc';
+export {default as Award } from './Award/Award';
 
