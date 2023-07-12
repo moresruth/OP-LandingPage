@@ -31,14 +31,15 @@
     }
 }
 @media screen and (max-width:650px){
+     
     .app__storyarcs-wrapper{
         margin: 2rem;
         padding: 1rem;
     }
 
     .app__storyarcs-containers{
-        margin: 1rem;
-        padding: 1rem;
+        margin: 0;
+        padding: 0;
     
         display: flex;
         flex-direction: column;
