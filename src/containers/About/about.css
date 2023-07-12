@@ -4,30 +4,18 @@
 
 }
 
-
-
-
-/* .app__about-wrapper{
-    margin: 0 6rem;
-    padding: 0 6rem;
-} */
-
 .app__about-img, 
 .app__about-verticaltext,
-.app__about-content,
-.app__about-info{
+.app__about-content{
     font-size: 20px;
     padding: 100px 10px;
-    /* width: 50%; */
+  
 }
 
 
 .app__about-img{
     background-color: var(--color-black);
-    /* width: 940px; */
-    
    
-
 }
 
 .app__about-img img{
@@ -120,8 +108,6 @@
     .app__about-img{
         width: 50rem;
         height: 65rem;
-        
-        
     }
 
 
@@ -130,15 +116,15 @@
     }
 
 
-        .app__about-content{
-            display: flex;
-            flex-direction: column;
-            margin: 2rem 0;
-            padding: 0;
-            transform: translate(-3rem, 1px);
-        }
+    .app__about-content{
+        display: flex;
+        flex-direction: column;
+        margin: 2rem 0;
+        padding: 0;
+        transform: translate(-3rem, 1px);
+    }
 
-        .app__about-content p {
-            padding: 1rem 0;
-        }
+    .app__about-content p {
+        padding: 1rem 0;
+    }
 }

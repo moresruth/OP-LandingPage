@@ -2,7 +2,7 @@ import React from 'react'
 import './App.css';
 
 import {Navbar, PirateFlag, Footer} from './components';
-import { Header, About, Characters, StoryArcs, Awards} from './containers';
+import { Header, About,  Characters, StoryArcs, Awards} from './containers';
 
 
 const App = () => {
@@ -24,4 +24,4 @@ const App = () => {
   )
 }
 
-export default 
+export default App

@@ -1,0 +1,103 @@
+.app__character{
+    background-color: var(--color-white);
+    margin: 0 1rem;
+    width: 378px;
+    height: 256px;
+    border-radius: 0.5rem;
+
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+   
+}
+
+.app__character-wrapper{
+    display: flex;
+    flex-direction: row;
+}
+
+.app__character-profile_img img{
+    width: 149px;
+    height: 240px;
+}
+
+.app__character-info{
+    color: var(--color-black);
+    font-family: var(--font-base);
+    font-size: 10px;
+
+    margin: 2rem 0;
+  
+}
+
+.app__character-name_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    /* align-items: center; */
+}
+
+.app__character-name_container p{
+    margin-top: 2px;
+    margin-left: 3px;
+    /* text-transform: lowercase; */
+   
+}
+
+.app__character-dream{
+    text-transform: lowercase;
+    font-size: 9px;
+}
+
+
+.app__character-about{
+    margin-top: 2rem;
+}
+
+.app__character-about_crewteam{
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: var(--font-alt);
+    letter-spacing: 1px;
+}
+
+
+/* responsive */
+@media screen and (max-width:1150px){
+
+   .app__character{
+    margin-top: 1rem;
+   }
+     
+    
+
+    .app__character-info  h1{
+        font-style: 10px;
+    }
+}
+
+
+@media screen and (max-width: 650px){
+    .app__character{
+        background-color: var(--color-white);
+       
+        width: 250px;
+        height: 256px;
+        margin: 1rem; 
+        
+       
+    }
+
+    .app__character-profile_img img{
+        width: 100px;
+        height: 150px;
+        margin: 2rem 0;
+    }
+    
+
+    .app__character-info{
+        margin: 1.5rem 0;
+      
+    }
+    
+}
