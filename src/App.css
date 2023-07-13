@@ -36,6 +36,14 @@
   text-align: justify;
 }
 
+.app__imbue-p{
+  color: var(--color-crimson);
+  font-size: 12px;
+  font-family: var(--font-alt);
+  font-weight: 300;
+  text-align: justify;
+}
+
 
 
 .app__button{

@@ -68,45 +68,5 @@
     }
 
 
-    
+
 }
-/* .app__newsletter{
-    border: 1px solid rgba(var(--color-light), 0.3);
-    width: 800px;
-    height: 311px;
-    
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    background-color: rgba(var(--color-light), 0.0);
-    box-shadow: 3px 3px 10px 3px rgba(var(--color-light), 0.0);
-}
-
-
-.app__newsletter-heading{
-    font-family: var(--font-alt);
-    letter-spacing: 1px;
-    font-size: 1.5rem;
-}
-
-
-.app__newsletter-p{
-    font-family: var(--font-base);
-    padding: 1rem;
-}
-
-.app__newsletter-input input {
-    width: 420px;
-    border: 1px solid rgba(var(--color-light), 0.1);
-    border-radius: 5px;
-    font-size: .8rem;
-    font-family: var(--font-base);
-    color: var(--color-white);
-    
-    margin-right: 1rem;
-    padding: 0.75rem 1rem;
-   
-    background-color: rgba(var(--color-light), 0.1);
-    
-} */
