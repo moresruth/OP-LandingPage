@@ -1,17 +1,19 @@
 .app__award{
-    color: var(--color-white);
-    width: 420px;
+    width: 400px;
+    height: 131px;
+    padding: 10px;
     display: flex;
     flex-direction: row;
-    /* margin: 0 .5rem; */
-    padding: 0 .1rem ;
 }
 
+.app__award-img,
+.app__award-content{
+    padding: 10px;
+}
+
+
 .app__award-img{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 1rem;
+    margin-top:12px;
 }
 
 .app__award-content h1{
@@ -26,37 +28,10 @@
     font-size: 12px;
     text-align: justify;
 }
-@media screen and (max-width: 1150px){
-    .app__award-img img{
-        width: 65px;
-        height: 75px;
-    }
-    .app__award-content{
-        margin: 10px;
-    }
-}
-@media screen and (max-width:650px){
+
+
+@media screen and (max-width:1150px){
     .app__award{
-        width: 289px;
-        display: flex;
-        flex-direction: column;
-        margin: 1rem 0;
-        
+        margin: 5px 0;
     }
-    .app__award-img{
-        display: flex;
-        justify-content: flex-start;
-        margin: 0;
-    }
-
-    .app__award-img img{
-        width: 25px;
-        height: 26px;
-        
-        
-        
-    }
-
-
-
 }

@@ -5,7 +5,7 @@ import images from '../../constants/images';
 
 const Awards = (props) => {
   return (
-    <div className="app__awards section__padding" id="awards">
+    <div className="app__awards section__padding section__margin" id="awards">
         <div className="app__section-heading">
           <h1>Awards and Recognition</h1>
           
@@ -40,7 +40,7 @@ const Awards = (props) => {
         </div>
 
 
-        <div className="app-awards-sideImg">
+        <div className="app-awards-sideImg flex__center">
           <img src={images.AwardSideImg} alt="" />
         </div>
       </div>
