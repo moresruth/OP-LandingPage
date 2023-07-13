@@ -23,7 +23,7 @@ const Navbar = () => {
           <li className="app__poppins-p"><a href="#characters">Characters</a></li>
           <li className="app__poppins-p"><a href="#arcs">Arcs</a></li>
           <li className="app__poppins-p"><a href="#awards">Awards</a></li>
-          <li className="app__poppins-p"><a href="#contacts">Contacts</a></li>
+      
 
         </ul>
 

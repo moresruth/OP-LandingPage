@@ -91,19 +91,20 @@
 
 @media screen and (max-width: 650px){
     .app__header{
-        padding: 1rem;
+        padding: 10px;
         margin: 0 5px;
     }
 
     .app__header-wrapper{
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
+        
     }
 
     .app__header-wrapper_info{
-        margin: 0 1rem;
+        margin: 0;
     }
 
     .app__header-wrapper_info h3{
