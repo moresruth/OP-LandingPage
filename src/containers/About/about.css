@@ -120,12 +120,13 @@
     .app__about-content{
         display: flex;
         flex-direction: column;
-        margin: 2rem 0;
-        padding: 0;
-        transform: translate(-3rem, 1px);
+        margin: 0 ;
+        padding: 3rem  0  1rem;
+        transform: translate(-1rem, -5px);
     }
 
     .app__about-content p {
+        width: 325px;
         padding: 1rem 0;
     }
 }
